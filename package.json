@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test:parent:browser": "vitest -c ./vitest-config-parent-browser.ts",
+    "test:child:browser": "vitest -c ./vitest-config-child-browser.ts",
+    "test:parent:node": "vitest -c ./vitest-config-parent-node.ts"
+  },
+  "devDependencies": {
+    "@vitest/browser": "^2.1.5",
+    "playwright": "^1.48.2"
+  },
+  "dependencies": {
+    "already": "^3.4.1"
+  }
+}
